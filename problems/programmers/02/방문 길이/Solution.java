@@ -4,7 +4,7 @@ import java.util.HashSet;
 class Solution {
     
     private static boolean isValidMove(int nx, int ny) {
-        return 0 <= nx && nx <= 10 && 0 <= ny && ny <= 10;
+        return -5 <= nx && nx <= 5 && -5 <= ny && ny <= 5;
     }
     
     private static final HashMap<Character, int[]> location = new HashMap<>();
@@ -18,8 +18,8 @@ class Solution {
     
     public int solution(String dirs) {
         initLocation();
-        int x = 5;
-        int y = 5;
+        int x = 0;
+        int y = 0;
         HashSet<String> answer = new HashSet<>();
         
         for(int i = 0; i < dirs.length(); i++) {
