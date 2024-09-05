@@ -1,4 +1,4 @@
-## [같은 숫자는 싫](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
+## [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
 ### 문제 풀이
 문제의 요구사항을 보았을 때, 스택 자료구조를 활용하고 중복을 피하여 정수를 삽입하면 쉽게 해결할 수 있을 것이라 생각하였습니다.
 
