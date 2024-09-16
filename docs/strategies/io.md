@@ -115,7 +115,7 @@ public class Main {
 	}
 }
 ```
-### 문자열을 연결할 때는 + 연산자 말고 StringBuilder를 이용한다.(string.md 참고)
+### 문자열을 연결할 때는 + 연산자 말고 StringBuilder를 이용한다. ([참고](https://github.com/BinarySstar/problem-solving/blob/master/docs/strategies/string.md))
 StringBuilder는 lang 패키지에 존재하므로 별도의 import문이 필요가 없습니다.
 입력이 다음과 같다고 가정합니다.
 ```
